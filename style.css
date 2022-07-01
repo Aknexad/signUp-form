@@ -1,0 +1,117 @@
+:root {
+  box-sizing: border-box;
+
+  --font-color: #fff;
+}
+
+body {
+  background-image: linear-gradient(
+    to right,
+    #000000,
+    #1b030f,
+    #27061e,
+    #310531,
+    #330949,
+    #330949,
+    #330949,
+    #330949,
+    #310531,
+    #27061e,
+    #1b030f,
+    #000000
+  );
+}
+
+.containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  color: var(--font-color);
+}
+
+.bg-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35vw;
+  height: 100vh;
+  background-image: url(./image/bg-1.jpg);
+}
+
+.bg-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  background-color: white;
+}
+
+.bg-logo img {
+  width: 100px;
+  height: auto;
+  position: absolute;
+}
+
+.copyright {
+  margin-top: 670px;
+  position: absolute;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4rem;
+}
+
+.title {
+  font-size: 2rem;
+  color: var(--font-color);
+}
+
+.form form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.colm-one,
+.colm-tow {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+form label {
+  font-size: large;
+}
+
+form input {
+  width: 350px;
+  padding: 10px;
+}
+
+.btn-login button {
+  font-size: large;
+  padding: 10px 20px;
+  background-color: black;
+  color: var(--font-color);
+}
+
+.btn-login p {
+  font-size: 1rem;
+  color: var(--font-color);
+}
