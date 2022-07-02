@@ -1,7 +1,9 @@
 :root {
   box-sizing: border-box;
 
-  --font-color: #fff;
+  --primary-color: #000;
+  --secondary-color: #191919;
+  --font-color: #ff00ff;
 }
 
 body {
@@ -43,7 +45,8 @@ body {
   justify-content: center;
   align-items: center;
   width: 35vw;
-  height: 100vh;
+  height: 960px;
+  background: no-repeat;
   background-image: url(./image/bg-1.jpg);
 }
 
@@ -61,8 +64,16 @@ body {
   position: absolute;
 }
 
+#bg-op {
+  width: 35vw;
+  height: 200px;
+  background-color: white;
+  opacity: 40%;
+  position: absolute;
+}
+
 .copyright {
-  margin-top: 670px;
+  margin-top: 900px;
   position: absolute;
 }
 
@@ -72,10 +83,19 @@ body {
   justify-content: center;
   align-items: flex-start;
   gap: 4rem;
+  width: 75vw;
+  height: auto;
+  padding: 1rem;
+  background-color: var(--primary-color);
+  -webkit-box-shadow: -9px 0px 16px 0px
+    rgba(50, 50, 50, 0.53);
+  -moz-box-shadow: -9px 0px 16px 0px
+    rgba(255, 255, 255, 0.53);
+  box-shadow: -9px 0px 16px 0px rgba(255, 255, 255, 0.53);
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: var(--font-color);
 }
 
@@ -107,7 +127,7 @@ form input {
 .btn-login button {
   font-size: large;
   padding: 10px 20px;
-  background-color: black;
+  background-color: var(--secondary-color);
   color: var(--font-color);
 }
 
