@@ -135,3 +135,16 @@ form input {
   font-size: 1rem;
   color: var(--font-color);
 }
+
+input[type='email'],
+input[type='text'],
+input[type='password'],
+input[type='number']:invalid {
+  border: red;
+}
+input[type='email'],
+input[type='text'],
+input[type='password'],
+input[type='number']:valid {
+  border: green;
+}
