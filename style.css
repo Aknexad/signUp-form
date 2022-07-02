@@ -67,7 +67,7 @@ body {
 #bg-op {
   width: 35vw;
   height: 200px;
-  background-color: white;
+  background-color: var(--secondary-color);
   opacity: 40%;
   position: absolute;
 }
@@ -147,4 +147,15 @@ input[type='text'],
 input[type='password'],
 input[type='number']:valid {
   border: green;
+}
+
+.passWarr {
+  padding: 10px;
+  margin: 10px;
+  font-size: larger;
+}
+
+.warr {
+  font-size: larger;
+  color: white;
 }
